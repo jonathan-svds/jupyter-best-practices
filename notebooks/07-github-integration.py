@@ -18,29 +18,34 @@ import seaborn as sns
 sns.set();
 
 
-# In[4]:
+# In[11]:
 
-x = np.random.random_sample(100) * 50.0
+x = np.random.random_sample(1000) * 50.0
 
 
-# In[5]:
+# In[12]:
 
 y = np.sin(x)
 
 
-# In[6]:
+# In[13]:
 
 plt.scatter(x, y)
 
 
-# In[8]:
+# In[14]:
 
 # Create new visualization
 
 
-# In[9]:
+# In[15]:
 
-plt.scatter(x,y**2.0)
+plt.scatter(x,y**2.0, color='red')
+
+
+# In[16]:
+
+plt.scatter(x,y**2.0, color='red')
 
 
 # In[ ]:
