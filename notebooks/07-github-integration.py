@@ -26,6 +26,11 @@ y = np.sin(x)
 plt.scatter(x, y)
 
 
+# In[10]:
+
+plt.plot(x,y)
+
+
 # In[ ]:
 
 
